@@ -1,0 +1,64 @@
+.about{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about .right{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+    display: block;
+}
+
+.about .right p{
+    margin: 1.2rem 0;
+}
+
+.about .left{
+    max-width: 700px;
+}
+
+.left .img-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.left .img{
+    max-width: 90%;
+    border: 1px solid #333;   
+}
+
+.about-me{
+    background-color: black;
+    font-size: 4rem;
+}
+.about-title{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.about-text{
+    font-size: 1.3rem;
+    color: white;
+}
+.about-text-title{
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: #333;
+}
+
+

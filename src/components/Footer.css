@@ -1,0 +1,57 @@
+.body{
+    height: 100%;
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    padding: 0.5rem 0;
+    background-color:rgb(49, 48, 48);
+    
+} 
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+}
+
+.left{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.right{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.right h4{
+    display: flex;
+}
+.right .social{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+@media screen and  (max-width: 640px) {
+    .footer-container{
+        grid-template-columns: 1fr;
+    }
+
+    .left{
+        font-size: 0.9rem;
+    }
+    
+    .right{
+        padding-left: 10rem;
+    }
+    
+}
